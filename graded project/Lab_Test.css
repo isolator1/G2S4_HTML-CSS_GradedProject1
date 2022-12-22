@@ -1,0 +1,72 @@
+<style>
+   
+    body{
+    margin: 0%;
+    background-color: rgba(255, 255, 255, 0.548);
+    }
+    section{
+        position:absolute;
+        top: 5%;
+        left: 5%;
+        width: 45%;
+    }
+    article{
+        min-block-size: 300px;
+        min-width: 300px;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: white;
+        }
+    
+    input{
+        width: 300px;
+        min-width: 100px;
+        border: none;
+        background-color: white;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.593);
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 40px;
+      
+    }
+    
+    input:focus{
+        outline: none !important;
+        border: none;
+        border-bottom:1px solid rgba(0, 0, 0, 0.303);
+    }
+  
+    input[name^="option"]{
+        width: 20px;
+        height: 20px;
+        margin-left: 0%;
+    }
+    button{
+        margin: 20px;
+        width: 80px;
+        border-radius: 8px;
+        height: 30px;
+        color: white;
+        font-size: 18px;
+        border: none;
+        background-color: rgb(175, 102, 243);
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+            outline: none;
+            transition: 0.2s all;
+    }
+    button:active{
+        transform: scale(0.98);
+         box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.8);
+    }
+    input:hover{
+        background-color: rgba(70, 130, 180,0.35);
+    }
+    div{
+        position: fixed;
+         margin-block-start: 5%;
+        margin-left: 40%;
+        margin-top: 5%;
+        width:100%;
+    }
+  

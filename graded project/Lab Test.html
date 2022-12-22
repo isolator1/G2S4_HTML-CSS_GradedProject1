@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+    <head>
+        <title>Lab Test</title>
+          <link rel="stylesheet" href="Lab_Test.css">
+    </head>
+    <section>
+       
+    <form action="">
+        <article>
+            <h2> 1.Your Contact Detail</h2>
+            <input type="text" title="name" placeholder="Full Name" required spellcheck="true">
+            <input type="text" title="patient id" placeholder="Enter Patient Id if exists" required >
+            <br>
+            <input type="text" title="Contact No" min="6000000000" max="9999999999" placeholder="Contact Number" required>
+            <input type="email" title="email" placeholder="Enter email id" required>
+        </article>
+
+        <article>
+            <h2> 2.Address</h2>
+            <input type="text" title="House Number" placeholder="H.No" required >
+            <input type="text" title="Street" placeholder="Street Name" required >
+            <br>
+            <input type="text" title="Area" placeholder="Area" required >
+            <h3>District</h3>
+                <select name="District" id="district" required>
+                    <option value="">Choose</option>
+                    <option value="Bangalore Urban">Bangalore Urban</option>
+                    <option value="Bangalore Rural">Bangalore Rural</option>
+                    <option value="Ramnagar">Ramnagar</option>
+                </select>
+        </article>
+
+        <article>
+            <h2>3.Choose the Type of Test</h2>
+            <p>Check atleast one box without fail</p>
+            <input type="checkbox" id="c1" name="option1" value="CBC">
+            <label for="c1">CBC</label>
+            <br>
+            <input type="checkbox" id="c2" name="option2" value="Complete Urine">
+            <label for="c2">Complete Urine</label>
+            <br>
+            <input type="checkbox" id="c3" name="option3" value="Lipid Profile">
+            <label for="c3">Lipid Profile</label>
+            <br>
+            <input type="checkbox" id="c4" name="option4" value="Thyroid Stimulating Hormone(TSH)">
+            <label for="c4">Thyroid Stimulating Hormone(TSH)</label>
+            <br>
+            <input type="checkbox" id="c5" name="option5" value="Glucose Test">
+            <label for="c5">Glucose Test</label>
+            
+        </article>
+
+        <article>
+            <h2>4.Do you want to a Hard Copy also ?</h2>
+            <input type="radio" id="c5" name="option" value="Yes" required>
+            <label for="c5">Yes</label>
+            <br>
+            <input type="radio" id="c6" name="option" value="No">
+            <label for="c6">No</label>
+        </article>
+        <article>
+            <h2>5.Select your Date and Times</h2>
+            
+            <label for="c1">Start date: </label>
+            <input type="date" required>
+            <br>
+            <label for="c1">Time: </label>
+            <input type="time" required>
+        </article>
+   
+        <button>Reset</button>
+        <button>Submit</button>
+    </section>
+    <div>
+        <img src="Images/lab-test/lab-test.jpg" alt="" style="width:50%">
+    </div>
